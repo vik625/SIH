@@ -1,0 +1,42 @@
+.subhead {
+    margin-bottom: 25px;
+    padding:2px;
+    font-size: large;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    /*font-weight: bold;
+    
+    border-bottom: 1px solid grey;*/
+}
+
+.subhead:hover {
+    color: red;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subhead span {
+    padding: 5%;
+}
+
+.center {
+    line-height: 1.6em;
+    margin-bottom: 20px;
+    font-size: 16px;
+    animation-name: box;
+    animation-duration: 0.5s;
+}
+
+@keyframes box 
+{
+    from { margin-top: -600px}
+    to { margin-top: 5px;}
+}
+/*
+.bt {
+    display: inline;
+    border: 1px solid black;
+    padding: 4px;
+    margin-top: 9px;
+    font-size: small;
+}*/

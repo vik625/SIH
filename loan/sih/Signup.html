@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Signup</title>
+        
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link  rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	 <link rel="stylesheet" type="text/css" href="Signup.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.33/dist/web3.min.js"></script>
+    <script type="module" src="./js/register.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="Signup.html" class="navbar-brand">Rashtriya Mahila Kosh</a>
+                </div>
+                <div class="collapse navbar-collapse"  id="mynavbar" >
+                    <ul class="nav navbar-nav navbar-right">
+                    <!--    <li><a href="Signup.html"><span class="glyphicon glyphicon-user"></span> Sign up</a></li> -->
+                        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    
+        <div class="col-xs-4 col-xs-offset-4">
+            <h4><b style="font-size: medium">SIGN UP</b></h4>
+            <br>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id ="Uname" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="address" placeholder="Address" required>
+            </div>
+            <div class="form-group">
+                <b style="font-size: small;"> User-Type:<div style="padding: 3px;"></div></b> 
+                <select class="form-control" name="" id="usertype" required>
+                    <option value="Admin" >Admin</option>
+                    <option value="Entreprenuer">Entreprenuer</option>
+                </select>
+            </div>    
+            
+     
+            <button id="btnpress" class="btn btn-primary">
+                Submit
+            </button>
+             
+            <div id="currentUserId">
+				</div>
+				<div id="currentUserId2"></div>
+				<div id ="kl" class="alert"><div  id="currentUserId1"></div><span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+				</div>
+				<div  id="divContentToPopup">
+
+				</div>
+        </form>
+        </div>
+    <!--
+         <footer>
+            <div class="container">
+                <center>
+                    <p>
+                     Copyright © Rashtriya Mahila Kosh. All Rights Reserved. Contact Us: +91900000000
+                    </p>
+                </center>
+            </div>
+        </footer>
+    
+       --> 
+
+    </body>
+</html>

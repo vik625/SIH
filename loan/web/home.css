@@ -1,0 +1,28 @@
+.center a {
+   line-height: 2em;  
+   text-align: center;
+   font-size: large;
+   color: black;
+   font-family: 'Times New Roman', Times, serif;
+}
+.center a:hover {
+    color: red;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.center {
+    position: relative;
+    top: 50px;
+    padding:5% 10%;
+    margin-right: 25%;
+    text-align: justify;
+    border: 1px solid indianred;
+    transition: 0.4s;
+    margin-bottom: 20%;
+    margin-left: 25%;
+}
+
+.center li {
+    list-style: none;
+}

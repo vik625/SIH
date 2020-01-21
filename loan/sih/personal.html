@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Info</title>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="loaninfo.css">
+    <link rel="stylesheet" href="personal.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link  rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.33/dist/web3.min.js"></script>
+    <script type="module" src="./js/data.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="home.html" class="navbar-brand">Rashtriya Mahila Kosh</a>
+            </div>
+            <div class="collapse navbar-collapse"  id="mynavbar" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="Login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <center><h2><b>Personal Information</b></h2></center>
+        <div class="center bg-primary">
+            <div class="form-group subhead">
+                User Id: <span></span>
+                <input class="form-control" type="number" min="0" name="" id="userid" required>
+            </div>
+            <div class="form-group subhead">
+                Aadhar Number: <span></span>
+                <input class="form-control" type="text" name="" id="aadhar" pattern="\d{12}" required>
+            </div>
+            <div class="form-group subhead">
+                Account Number: <span></span>
+                <input class="form-control" type="text" name="" id="account" pattern="\d{16}" required>
+            </div>
+            <div class="form-group subhead">
+                Age: <span></span>
+                <input class="form-control" type="number" name="" id="age" min="18" max="90" required>
+            </div>
+            <div class="form-group subhead">
+                No. of family members: <span></span>
+                <input class="form-control" type="number" name="" id="family" min="0" required>
+            </div>
+            <div class="form-group subhead">
+                Caste: <span></span>
+                <select class="form-control" name="" id="caste" required>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>            
+                </select>
+            </div>
+            <div class="form-group subhead">
+                Religion: <span></span>
+                <select class="form-control" name="" id="religion" required>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>            
+                </select>
+            </div>
+            <div class="form-group subhead">
+                Literacy Level: <span></span>
+                <select class="form-control" name="" id="literacy" required>
+                    <option value="a">a</option>
+                    <option value="b">b</option>
+                    <option value="c">c</option>            
+                </select>
+            </div>
+            <div class="middle">
+            <button id="btnnew" type="submit" class="btn btn-lg btn-danger">Submit</button>
+            </div>
+        </div>    
+    </div>
+</body> 
+<!--
+<footer>
+    <div class="container">
+        <center>
+            <p>
+             Copyright © Rashtriya Mahila Kosh. All Rights Reserved. Contact Us: +91900000000
+            </p>
+        </center>
+    </div>
+</footer>
+-->
+</html>

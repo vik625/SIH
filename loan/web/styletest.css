@@ -1,0 +1,45 @@
+h2 {
+    color: rgb(2, 2, 95);
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+form {
+    color: cornsilk;
+    background-color: rgb(13, 4, 24);
+    padding: 50px;
+    transition: 0.4s;
+}
+
+.form div {
+    padding-bottom: 70px; 
+    transition: 0.4s;
+}
+
+button {
+    padding: 10px;
+    transition: 0.4s;
+    position: relative;
+    
+}
+
+button:hover {
+    color: red;
+    transform: rotateY(180deg);
+}
+
+span {
+    padding-right: 15px; 
+}
+
+a {
+    text-decoration: none;
+    color: #ffb3b3;
+}
+
+a:hover {
+    color: red;
+}

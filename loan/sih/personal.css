@@ -1,0 +1,32 @@
+.center {
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 20px;
+    padding: 10spx;
+}
+
+ .center span {
+    padding: 7px;
+}
+
+select {
+    color: black;
+}
+
+.subhead {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.subhead:hover {
+    font-size: 19px;
+    color: black;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.middle {
+    padding: 10px;
+}

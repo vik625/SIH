@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SHG Details</title>
+    <link rel="stylesheet" type="text/css" href="Signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="loaninfo.css">
+    <link rel="stylesheet" href="personal.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link  rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.33/dist/web3.min.js"></script>
+    <script type="module" src="./js/buyer.js"></script>
+    <style>
+        .center
+        {
+            margin-left: 35%;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="home.html" class="navbar-brand">Rashtriya Mahila Kosh</a>
+            </div>
+            <div class="collapse navbar-collapse"  id="mynavbar" >
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <center><h1><b>SHG Details</b></h1></center>
+        <div class="center bg-primary">
+            <div class="form-group subhead">
+                Occupation: <span></span>
+                <select class="form-control" name="" id="occupation" required>
+                    <option value="Business">Business</option>
+                    <option value="Entreprenuer">Entreprenuer</option>
+                    <option value="Govt. Employee">Govt. Employee</option>
+                    <option value="Private firm">Private Firm</option>
+                    <option value="Housewife">Housewife</option>
+                </select>
+            </div>
+            <div class="form-group subhead">
+                Income Level: <span></span>
+                <select class="form-control" name="" id="income" required>
+                    <option value="less than 50k"> less than 50k </option>
+                    <option value="50k - 1lakh"> 50k - 1lakh </option>
+                    <option value="1lakh - 5lakh"> 1lakh - 5lakh </option>
+                    <option value="5lakh - 10lakh"> 5lakh - 10 lakh </option>
+                    <option value="more than 10lakh"> more than 10 lakh </option>
+                </select>
+            </div>
+            <div class="form-group subhead">
+                Savings: <span></span>
+                <select class="form-control" name="" id="savings" required>
+                    <option value="1k-10k">1k-10k</option>
+                    <option value="10k-20k">10k-20k</option>
+                    <option value="20k-50k">20k-50k</option>
+                    <option value="50k-1lakh">50k-1lakh</option>
+                    <option value="more than 1 lakh">more than 1 lakh</option>
+                    <option value="no savings">no savings</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+            <button id="btns" type="submit" class="btn btn-danger btn-lg">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!--
+<footer>
+    <div class="container">
+        <center>
+            <p>
+             Copyright © Rashtriya Mahila Kosh. All Rights Reserved. Contact Us: +91900000000
+            </p>
+        </center>
+    </div>
+</footer>    
+-->
+</html>
